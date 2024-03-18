@@ -1,0 +1,54 @@
+.profileContainer {
+  border-radius: 16px;
+  border: 2px solid black;
+  background-color: rgb(235, 235, 240);
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.profileBox {
+  padding: 30px;
+}
+.profileImg {
+  border-radius: 50%;
+  background-color: rgb(44, 43, 43);
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.profileTeg,
+.profileLocation {
+  text-align: center;
+  font-size: 32px;
+}
+.profileTitle {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.infoList {
+  display: flex;
+  background-color: #35333334;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  font-size: 32px;
+  padding: 0 20px;
+
+  text-align: center;
+}
+
+.infoList li:not(:last-child) {
+  border-right: 3px solid black;
+}
+.infoList li span {
+  margin-right: 20px;
+}
+
+span {
+  display: block;
+  align-content: center;
+}
